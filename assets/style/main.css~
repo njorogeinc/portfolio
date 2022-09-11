@@ -6,11 +6,16 @@ body{
     background-color:#e8edea;
     font-family: 'Lato', sans-serif;
 }
-.footer {
-  position: fixed;
+.footermine {
+  
   left: 0;
   bottom: 0;
-  width: 100%; 
-  color: white;
-  text-align: center;  
+  width: 100%;
+  text-align: center;
+}
+
+#back-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 0.5rem;
 }

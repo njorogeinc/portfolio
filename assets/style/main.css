@@ -13,3 +13,9 @@ body{
   width: 100%;
   text-align: center;
 }
+
+#back-top {
+  position: fixed;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}

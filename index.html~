@@ -10,7 +10,17 @@
   </head>
   <body id="home">
   
+  <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true" id="myToast">
+  <div class="d-flex">
+    <div class="toast-body">
+      Hello, world! 
+    </div>
+    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+</div>
+  
    <header>
+   
  
  <ul class="nav justify-content-end">
   <li class="nav-item">
@@ -61,12 +71,15 @@
   <div class="card-body">
     <h5 class="card-title">Code Devel.</h5>
     <p class="card-text">Teachings on web development.</p>
-    <a href="#" class="https://youtu.be/I3m2XBfyysI">View</a>
+    <a href="https://youtu.be/I3m2XBfyysI" class="btn btn-primary">View</a>
   </div>
  
 </div>
 
  </main>
+ 
+
+
  
  <br> 
 
@@ -86,6 +99,18 @@
     @2022 Copyright.
   </div>
 </div>
+
+<!--<div class="float-right">
+<!--<div class="fixed-bottom">-->
+
+
+
+<a href="#home" id="back-top" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">
+<i class="bi bi-arrow-bar-up"></i>
+
+</a>
+</div>
+</div><br>
  
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
