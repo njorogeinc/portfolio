@@ -27,3 +27,9 @@ body{
   bottom: 0.5rem;
 }
 
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
